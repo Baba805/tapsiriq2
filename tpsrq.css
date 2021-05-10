@@ -1,0 +1,67 @@
+header, footer {
+    background-color: #ccc;
+    text-align: center;
+    padding: 23px;
+    margin: 3px;
+    border: 2px;
+}
+.sct1,.sct3,.sct2 {
+    background-color: #666;
+    width: 33%;
+    height: 63px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+
+}
+.sct2 {
+    background-color: #888;
+}
+.sct4 {
+    background-color: #eee;
+   
+    display: block;
+    height: 7cm;
+    text-align: center;
+    margin: 8px;
+    clear: both;
+   
+  
+
+}
+aside {
+    background-color: #fff;
+    border: 0px solid ;
+    display: inline-block;
+    width: 5cm;
+    height: 5cm;
+    float: left;
+    margin: 0px 0px 100px 55px;
+    position: relative;
+    bottom: 3cm;
+    left: 2cm;
+
+}
+.divv {
+    border: 0px;
+    display: block;
+background-color: #6ea3da;
+width: 90%;
+height: 66px;
+
+
+
+
+
+margin: 1cm 0cm 0cm 2cm;
+}
+
+
+
+.sct4::after {
+content: "";
+clear: both;
+display: block;
+height: 1px;
+
+}
